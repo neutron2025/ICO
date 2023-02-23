@@ -36,6 +36,12 @@ npm i ethers@5
 修改 Home.modules.css
 修改 pages/index.js
 
-目录my-app 下新建目录constants 在其下创建文件 index.js
 
-运行
+在目录my-app 下面创建目录constants 在下面创建文件index.js
+配置四个参数
+export const NFT_CONTRACT_ABI = "abi-of-your-nft-contract";
+export const NFT_CONTRACT_ADDRESS = "address-of-your-nft-contract";
+export const TOKEN_CONTRACT_ABI = "abi-of-your-token-contract";
+export const TOKEN_CONTRACT_ADDRESS = "address-of-your-token-contract";
+
+运行 npm run dev
